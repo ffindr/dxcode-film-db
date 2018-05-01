@@ -14,3 +14,11 @@ test('detect invalid dx-number', t => {
 	t.throws(() => dxCode.parseDxNumber(12334));
 	t.throws(() => dxCode.parseDxNumber('-12345'));
 });
+
+test('map exposure latitude', t => {
+	t.plan(4);
+	t.equal(dxCode.getExposures(1), 12); // https://en.wikipedia.org/wiki/DX_number#DX_barcode
+	t.equal(dxCode.getExposures(4), 36);
+	t.throws(() => dxCode.getExposures(0));
+	t.throws(() => dxCode.getExposures(11));
+});
