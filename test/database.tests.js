@@ -1,8 +1,8 @@
+'use strict';
 const test = require('tap').test;
-const db = require('../database.js');
+const db = require('../database');
 
 test('database contains entries', t => {
-	t.plan(2);
-	t.ok(db.products.length > 0, 'no products found');
-	t.ok(db.manufacturers.length > 0, 'no manufacturers found');
+	t.plan(1);
+	t.ok(Object.keys(db).length > 0, 'no entries');
 });

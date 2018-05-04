@@ -4,7 +4,8 @@
 	"description": "Database to decode the dx-number of analog 135-size photography film.",
 	"main": "index.js",
 	"scripts": {
-		"test": "xo && tap test/**/*.js"
+		"test": "xo && tap test/**/*.js",
+		"build": "node build.js"
 	},
 	"keywords": [
 		"analog-film",

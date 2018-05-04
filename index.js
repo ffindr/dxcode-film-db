@@ -1,3 +1,4 @@
+'use strict';
 function parseDxNumber(value) {
 	const dxNumber = Number(value);
 
