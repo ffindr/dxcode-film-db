@@ -1,5 +1,5 @@
 'use strict';
-const test = require('tap').test;
+const {test} = require('tap');
 const db2json = require('../db2json');
 
 test('merge entries', t => {
