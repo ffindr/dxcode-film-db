@@ -1,6 +1,8 @@
 dxcode-film-db
 ==============
 
+[![Build Status](https://travis-ci.org/ffindr/dxcode-film-db.svg?branch=master)](https://travis-ci.org/ffindr/dxcode-film-db)
+
 Database to decode the dx-number of analog 135-size photography film.
 
 ## Reorder csv files
