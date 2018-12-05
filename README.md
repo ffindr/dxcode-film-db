@@ -1,6 +1,8 @@
 dxcode-film-db
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ffindr/dxcode-film-db.svg)](https://greenkeeper.io/)
+
 Database to decode the dx-number of analog 135-size photography film.
 
 ## Reorder csv files
