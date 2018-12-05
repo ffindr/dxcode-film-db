@@ -1,5 +1,5 @@
 'use strict';
-const test = require('tap').test;
+const {test} = require('tap');
 const dxCode = require('..');
 
 test('parse dx-number', t => {

@@ -1,5 +1,5 @@
 'use strict';
-const test = require('tap').test;
+const {test} = require('tap');
 const db = require('../database');
 
 test('database contains entries', t => {
