@@ -16,7 +16,7 @@
 	"author": "",
 	"license": "GPL-3.0",
 	"devDependencies": {
-		"csv-parse": "^4.0.1",
+		"csv-parse": "4.0.1",
 		"tap": "^12.1.0",
 		"xo": "^0.23.0"
 	},
